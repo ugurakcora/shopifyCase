@@ -3595,3 +3595,20 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* Hide scrollbar in Webkit browsers (e.g., Chrome, Safari) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+  height: none;
+}
+
+/* Hide scrollbar in Firefox */
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Hide scrollbar in Edge, Internet Explorer */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+}

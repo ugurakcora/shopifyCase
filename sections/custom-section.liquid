@@ -1,0 +1,202 @@
+<div class="w-full grid lg:grid-cols-2 lg:grid-flow-col md:grid-cols-1 sm:grid-cols-1">
+  <div class="flex flex-col items-start lg:z-10 md:w-full md:p-0 sm:z-0 md:z-0">
+    <img
+      src="{{ 'byte-main.png' | asset_url }}"
+      alt="Product"
+      class="object-cover sm:w-full md:w-full"
+      width="720"
+      height="864"
+    >
+  </div>
+
+  <div class="flex flex-col items-center sm:z-10 md:z-10 lg:z-0">
+    <div class="lg:mx-18 sm:mx-2 md:mx-2">
+      <div class="flex flex-col items-start justify-start ">
+        <h1 class="lg:font-bold text-start text-4xl sm:font-extrabold max-w-96 lg:text-black lg:mt-14 sm:text-white sm:mt-[-347px] md:mt-[-347px] md:text-white">
+          <!-- Limit width to force text to wrap -->
+          Everyday items, we have something to suit every occasion.
+        </h1>
+        <p class="font-normal text-start text-sm max-w-96 text-gray-500 mt-5 lg:text-black lg:block sm:hidden md:hidden">
+          At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida
+          cursus.
+        </p>
+        <a class="mt-8 font-bold text-sm underline underline-offset-8 lg:text-black sm:text-white md:text-white sm:text-lg md:text-lg"
+          >Shop All Everday Items</a
+        >
+      </div>
+    </div>
+    <div class="relative" id="product-container">
+      <div class="lg:mt-6 md:mt-[-57px] sm:mt-[-57px] sm:z-10 md:z-10 overflow-x-auto hide-scrollbar">
+        <div class="flex space-x-4 lg:pl-[160px] lg:pr-[120px] sm:pl-3">
+          <!-- Product Item 1 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              src="{{ 'hoodie-green.png' | asset_url }}"
+              alt="hoodie-green"
+              width="230"
+              height="310"
+            >
+            <p class="font-light text-xs py-2">365 Signature Hoodie</p>
+            <div class="flex justify-between items-center">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-1">
+                <!-- Color Options -->
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-1')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-1')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-1')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-1')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Item 2 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              src="{{ 'jeans-yellow.png' | asset_url }}"
+              alt="jeans-yellow"
+              width="230"
+              height="310"
+            >
+            <p class="font-light text-xs py-2">Organic Skinny High Waist Jeans</p>
+            <div class="flex justify-between items-center">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-2">
+                <!-- Color Options -->
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-2')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-2')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-2')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-2')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Item 3 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              src="{{ 'joggers-blue.png' | asset_url }}"
+              alt="joggers-blue"
+              width="230"
+              height="310"
+            >
+            <p class="font-light text-xs py-2">Organic Skinny High Waist Jeans</p>
+            <div class="flex justify-between items-center">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-3">
+                <!-- Color Options -->
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-3')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-3')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-3')"
+                ></div>
+                <div
+                  class="color-circle w-4 h-4 rounded-full border-2 cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-3')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Empty space to create right padding -->
+          <div class="flex-shrink-0 w-[20px]"></div>
+          <!-- Adjust width as needed -->
+        </div>
+        <!-- Scroll Button -->
+        <button
+          class="absolute right-5 top-1/2 transform -translate-y-1/2 border border-gray-300 rounded p-2 sm:hidden md:hidden lg:block"
+          onclick="scrollRight()"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 text-gray-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript to handle the scroll -->
+<script>
+  function selectColor(event, containerId) {
+    // Remove the 'border-black' class from all circles in the specified container
+    const circles = document.querySelectorAll(`#${containerId} .color-circle`);
+    circles.forEach((circle) => {
+      circle.classList.remove('border-black');
+    });
+
+    // Add the 'border-black' class to the selected circle
+    event.target.classList.add('border-black');
+  }
+
+  function scrollRight() {
+    const container = document.getElementById('product-container').querySelector('.overflow-x-auto');
+    container.scrollBy({
+      left: 230, // Adjust this value to the width of your product items
+      behavior: 'smooth',
+    });
+  }
+
+  // Set the first color as selected by default for each product item
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorContainers = ['color-options-1', 'color-options-2', 'color-options-3'];
+    colorContainers.forEach((containerId) => {
+      const firstCircle = document.querySelector(`#${containerId} .color-circle`);
+      firstCircle.classList.add('border-black'); // Highlight the first circle
+    });
+  });
+</script>
+
+<style>
+  .border-black {
+    border-color: black !important;
+  }
+</style>
