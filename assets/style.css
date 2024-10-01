@@ -665,26 +665,17 @@ video {
 .mt-5 {
   margin-top: 20px;
 }
+.mt-\[-280px\] {
+  margin-top: -280px;
+}
 .mt-\[-37px\] {
   margin-top: -37px;
 }
-.mt-\[-381px\] {
-  margin-top: -381px;
+.mt-\[18px\] {
+  margin-top: 18px;
 }
-.mt-\[-54px\] {
-  margin-top: -54px;
-}
-.mt-\[-30px\] {
-  margin-top: -30px;
-}
-.mt-\[30px\] {
-  margin-top: 30px;
-}
-.mt-\[10px\] {
-  margin-top: 10px;
-}
-.mt-\[-280px\] {
-  margin-top: -280px;
+.mt-\[-46px\] {
+  margin-top: -46px;
 }
 .box-border {
   box-sizing: border-box;
@@ -1659,9 +1650,9 @@ video {
   padding-left: 6px;
   padding-right: 6px;
 }
-.px-3\.5 {
-  padding-left: 14px;
-  padding-right: 14px;
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .px-5 {
   padding-left: 20px;
@@ -1671,23 +1662,9 @@ video {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.py-3 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.px-4 {
-  padding-left: 16px;
-  padding-right: 16px;
-}
 .py-3\.5 {
   padding-top: 14px;
   padding-bottom: 14px;
-}
-.pl-\[81px\] {
-  padding-left: 81px;
-}
-.pl-\[142px\] {
-  padding-left: 142px;
 }
 .pl-\[30px\] {
   padding-left: 30px;
@@ -1740,29 +1717,21 @@ video {
 .font-avenir {
   font-family: Avenir Light, sans-serif;
 }
-.text-4xl {
-  font-size: 36px;
-  line-height: 40px;
-}
 .text-base {
   font-size: 16px;
   line-height: 24px;
-}
-.text-lg {
-  font-size: 18px;
-  line-height: 28px;
 }
 .text-sm {
   font-size: 14px;
   line-height: 20px;
 }
-.text-xs {
-  font-size: 12px;
-  line-height: 16px;
-}
 .text-xl {
   font-size: 20px;
   line-height: 28px;
+}
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
 }
 .font-bold {
   font-weight: 700;
@@ -2268,11 +2237,6 @@ body, html {
     padding: 0px;
   }
 
-  .md\:text-lg {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
   .md\:text-xs {
     font-size: 12px;
     line-height: 16px;
@@ -2363,14 +2327,14 @@ body, html {
     padding-right: 120px;
   }
 
-  .lg\:text-xs {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
   .lg\:text-4xl {
     font-size: 36px;
     line-height: 40px;
+  }
+
+  .lg\:text-xs {
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .lg\:font-bold {
