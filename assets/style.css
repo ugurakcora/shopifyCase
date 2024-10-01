@@ -1675,6 +1675,14 @@ video {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.px-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.py-3\.5 {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
 .pl-\[81px\] {
   padding-left: 81px;
 }
@@ -2371,6 +2379,10 @@ body, html {
 
   .lg\:text-black {
     color: rgba(0, 0, 0, 1);
+  }
+
+  .lg\:text-doveGray {
+    color: rgba(102, 102, 102, 1);
   }
 }
 
