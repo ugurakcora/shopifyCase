@@ -6,21 +6,20 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      'sm': '300px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    }
+      sm: '576px',
+      md: '960px',
+      lg: '1440px',
+    },
+    fontFamily: {
+      avantGarde: ['"ITC Avant Garde Gothic Pro"', 'sans-serif'],
+      avenir: ['Avenir Light', 'sans-serif'],
+    },
+    colors: {
+      doveGray: 'rgba(102, 102, 102, 1)',
+      ghostlyShade: 'rgba(0, 0, 0, 0.1)',
+      white: 'rgba(255, 255, 255, 1)',
+      black: 'rgba(0, 0, 0, 1)',
+    },
   },
   plugins: [
     remToPxPlugin({
