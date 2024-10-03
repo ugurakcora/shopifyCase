@@ -668,14 +668,11 @@ video {
 .mt-\[-280px\] {
   margin-top: -280px;
 }
-.mt-\[-37px\] {
-  margin-top: -37px;
+.mt-\[-46px\] {
+  margin-top: -46px;
 }
 .mt-\[18px\] {
   margin-top: 18px;
-}
-.mt-\[-46px\] {
-  margin-top: -46px;
 }
 .box-border {
   box-sizing: border-box;
@@ -761,6 +758,15 @@ video {
 .h-4 {
   height: 16px;
 }
+.h-\[310px\] {
+  height: 310px;
+}
+.h-\[200px\] {
+  height: 200px;
+}
+.max-h-\[310px\] {
+  max-height: 310px;
+}
 .w-4 {
   width: 16px;
 }
@@ -779,8 +785,17 @@ video {
 .w-full {
   width: 100%;
 }
+.w-\[230px\] {
+  width: 230px;
+}
+.w-\[148px\] {
+  width: 148px;
+}
 .max-w-3xl {
   max-width: 48rem;
+}
+.max-w-\[230px\] {
+  max-width: 230px;
 }
 .flex-shrink {
   flex-shrink: 1;
@@ -2317,6 +2332,11 @@ body, html {
     --tw-space-x-reverse: 0;
     margin-right: calc(28px * var(--tw-space-x-reverse));
     margin-left: calc(28px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 
   .lg\:pl-\[139px\] {

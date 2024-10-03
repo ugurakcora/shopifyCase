@@ -38,18 +38,20 @@
           <!-- Product Item 1 -->
           <div class="text-start flex-shrink-0">
             <img
+              id="desktop-image-1"
               src="{{ 'hoodie-green.png' | asset_url }}"
               alt="hoodie-green"
               width="230"
               height="310"
-              class="lg:block hidden"
+              class="lg:block hidden w-[230px] h-[310px]"
             >
             <img
+              id="mobile-image-1"
               src="{{ 'hoodie-green.png' | asset_url }}"
               alt="hoodie-green"
               width="148"
               height="200"
-              class="block lg:hidden"
+              class="block lg:hidden w-[148px] h-[200px]"
             >
             <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
             <p class="font-light text-xs py-2 font-avenir lg:hidden block">
@@ -62,24 +64,32 @@
               <div class="flex items-center space-x-2 py-2" id="color-options-1">
                 <!-- Color Options -->
                 <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #99C3CC;"
-                  onclick="selectColor(event, 'color-options-1')"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
                 ></div>
                 <div
+                  id="jeans-yellow"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CC9999;"
-                  onclick="selectColor(event, 'color-options-1')"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
                 ></div>
                 <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CB99CC;"
-                  onclick="selectColor(event, 'color-options-1')"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
                 ></div>
                 <div
+                  id="jeans-yellow-2"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #BCD9B2;"
-                  onclick="selectColor(event, 'color-options-1')"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
                 ></div>
               </div>
             </div>
@@ -87,18 +97,20 @@
           <!-- Product Item 2 -->
           <div class="text-start flex-shrink-0">
             <img
+              id="desktop-image-2"
               src="{{ 'jeans-yellow.png' | asset_url }}"
               alt="jeans-yellow"
               width="230"
               height="310"
-              class="lg:block hidden"
+              class="lg:block hidden w-[230px] h-[310px]"
             >
             <img
+              id="mobile-image-2"
               src="{{ 'jeans-yellow.png' | asset_url }}"
               alt="jeans-yellow"
               width="148"
               height="200"
-              class="block lg:hidden"
+              class="block lg:hidden w-[148px] h-[200px]"
             >
             <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
             <p class="font-light text-xs py-2 font-avenir lg:hidden block">
@@ -111,24 +123,32 @@
               <div class="flex items-center space-x-2 py-2" id="color-options-2">
                 <!-- Color Options -->
                 <div
+                  id="jeans-yellow"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #99C3CC;"
-                  onclick="selectColor(event, 'color-options-2')"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
                 ></div>
                 <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CC9999;"
-                  onclick="selectColor(event, 'color-options-2')"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
                 ></div>
                 <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CB99CC;"
-                  onclick="selectColor(event, 'color-options-2')"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
                 ></div>
                 <div
+                  id="hoodie-green"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #BCD9B2;"
-                  onclick="selectColor(event, 'color-options-2')"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
                 ></div>
               </div>
             </div>
@@ -136,18 +156,20 @@
           <!-- Product Item 3 -->
           <div class="text-start flex-shrink-0">
             <img
+              id="desktop-image-3"
               src="{{ 'joggers-blue.png' | asset_url }}"
               alt="joggers-blue"
               width="230"
               height="310"
-              class="lg:block hidden"
+              class="lg:block hidden w-[230px] h-[310px]"
             >
             <img
+              id="mobile-image-3"
               src="{{ 'joggers-blue.png' | asset_url }}"
               alt="joggers-blue"
               width="148"
               height="200"
-              class="lg:hidden block"
+              class="lg:hidden block w-[148px] h-[200px]"
             >
             <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
             <p class="font-light text-xs py-2 font-avenir lg:hidden block">
@@ -160,24 +182,32 @@
               <div class="flex items-center space-x-2 py-2" id="color-options-3">
                 <!-- Color Options -->
                 <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #99C3CC;"
-                  onclick="selectColor(event, 'color-options-3')"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
                 ></div>
                 <div
+                  id="byte-main"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CC9999;"
-                  onclick="selectColor(event, 'color-options-3')"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
                 ></div>
                 <div
+                  id="jeans-yellow"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #CB99CC;"
-                  onclick="selectColor(event, 'color-options-3')"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
                 ></div>
                 <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
                   class="color-circle w-4 h-4 rounded-full  cursor-pointer"
                   style="background-color: #BCD9B2;"
-                  onclick="selectColor(event, 'color-options-3')"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
                 ></div>
               </div>
             </div>
@@ -212,7 +242,7 @@
 
 <!-- JavaScript to handle the scroll -->
 <script>
-  function selectColor(event, containerId) {
+  function selectColor(event, containerId, desktopId, mobileId) {
     // Remove the 'border-black' class from all circles in the specified container
     const circles = document.querySelectorAll(`#${containerId} .color-circle`);
     circles.forEach((circle) => {
@@ -221,6 +251,20 @@
 
     // Add the 'border-black' class to the selected circle
     event.target.classList.add('border-black');
+
+    // Get the clicked color option
+    const selectedColor = event.currentTarget;
+
+    // Get the image source from the data-image attribute
+    const newImageSrc = selectedColor.getAttribute('data-image');
+
+    // Change the source of the desktop and mobile images
+    const desktopImage = document.getElementById(desktopId);
+    const mobileImage = document.getElementById(mobileId);
+
+    // Update the image sources
+    desktopImage.src = newImageSrc; // Update desktop image source
+    mobileImage.src = newImageSrc;
   }
 
   function scrollRight() {

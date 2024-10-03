@@ -5,22 +5,31 @@
       "settings": {
         "products": [
           {
-            "name": "365 Signature Hoodie",
-            "price": "33.95",
-            "image": "hoodie-green.png",
-            "colors": ["green", "pink", "black"]
+            "title": "365 Signature Hoodie",
+            "price": "€33.95",
+            "images": {
+              "desktop": "hoodie-green.png",
+              "mobile": "hoodie-green.png"
+            },
+            "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#BCD9B2"]
           },
           {
-            "name": "Organic Skinny High Waist Jeans",
-            "price": "33.95",
-            "image": "jeans-yellow.png",
-            "colors": ["yellow", "blue", "black"]
+            "title": "Organic Skinny High Waist Raw Hem Jeans",
+            "price": "€33.95",
+            "images": {
+              "desktop": "jeans-yellow.png",
+              "mobile": "jeans-yellow.png"
+            },
+            "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#BCD9B2"]
           },
           {
-            "name": "Organic Skinny Joggers",
-            "price": "33.95",
-            "image": "joggers-blue.png",
-            "colors": ["blue", "green", "red"]
+            "title": "Joggers Blue",
+            "price": "€33.95",
+            "images": {
+              "desktop": "joggers-blue.png",
+              "mobile": "joggers-blue.png"
+            },
+            "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#BCD9B2"]
           }
         ]
       }
