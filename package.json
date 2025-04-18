@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Shopify Dawn theme with Tailwind CSS",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css --watch",
-    "build": "npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css --minify"
+    "dev": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/tailwind.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
