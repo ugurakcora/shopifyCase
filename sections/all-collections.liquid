@@ -1,0 +1,294 @@
+<div class="w-full grid lg:grid-cols-2 lg:grid-flow-col md:grid-cols-1 grid-cols-1">
+  <div class="flex flex-col items-start lg:z-10 md:w-full md:p-0 z-0 md:z-0">
+    <img
+      src="{{ 'byte-main.png' | asset_url }}"
+      alt="Product"
+      class="object-cover w-full md:w-full"
+      width="720"
+      height="864"
+    >
+  </div>
+
+  <div class="flex flex-col items-center z-10 md:z-10 lg:z-0">
+    <div class="lg:ml-[13px] mx-[30px] md:mx-2">
+      <div class="flex flex-col items-start justify-start ">
+        <h4 class="font-avantGarde lg:font-bold text-start lg:text-4xl text-xl font-bold max-w-3xl lg:text-black lg:mt-[87px] text-white mt-[-280px] md:mt-[-347px] md:text-white">
+          <!-- Limit width to force text to wrap -->
+          <span class="lg:visible md:invisible invisible"
+            >Everyday items, we have something to suit every occasion.</span
+          >
+          <span class="lg:invisible visible md:visible text-start flex lg:hidden"
+            >Everyday tops, we have something to suit every occasion.</span
+          >
+        </h4>
+        <p class="font-extralight font-avenir text-start text-base max-w-3xl text-doveGray mt-5 lg:text-doveGray lg:visible hidden md:invisible lg:block md:block">
+          At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida
+          cursus.
+        </p>
+        <a
+          class="lg:mt-8 md:mt-8 mt-[18px] font-bold font-avenir lg:text-xs underline underline-offset-8 lg:text-black text-white md:text-white text-xs md:text-xs"
+        >
+          Shop All Everday Items
+        </a>
+      </div>
+    </div>
+    <div class="relative" id="product-container">
+      <div class="lg:mt-[82px] md:mt-[-57px] mt-[-46px] z-10 md:z-10 overflow-x-auto ">
+        <div class="flex lg:space-x-7 space-x-4 lg:pl-[139px] lg:pr-[120px] pl-[30px]">
+          <!-- Product Item 1 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              id="desktop-image-1"
+              src="{{ 'hoodie-green.png' | asset_url }}"
+              alt="hoodie-green"
+              width="230"
+              height="310"
+              class="lg:block hidden w-[230px] h-[310px]"
+            >
+            <img
+              id="mobile-image-1"
+              src="{{ 'hoodie-green.png' | asset_url }}"
+              alt="hoodie-green"
+              width="148"
+              height="200"
+              class="block lg:hidden w-[148px] h-[200px]"
+            >
+            <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
+            <p class="font-light text-xs py-2 font-avenir lg:hidden block">
+              Organic Skinny High <br>
+              Waist Raw Hem Jeans
+            </p>
+            <div class="lg:flex lg:flex-row flex lg:justify-between flex-col lg:items-center items-start">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-1">
+                <!-- Color Options -->
+                <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
+                ></div>
+                <div
+                  id="jeans-yellow"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
+                ></div>
+                <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
+                ></div>
+                <div
+                  id="jeans-yellow-2"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-1','desktop-image-1','mobile-image-1')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Item 2 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              id="desktop-image-2"
+              src="{{ 'jeans-yellow.png' | asset_url }}"
+              alt="jeans-yellow"
+              width="230"
+              height="310"
+              class="lg:block hidden w-[230px] h-[310px]"
+            >
+            <img
+              id="mobile-image-2"
+              src="{{ 'jeans-yellow.png' | asset_url }}"
+              alt="jeans-yellow"
+              width="148"
+              height="200"
+              class="block lg:hidden w-[148px] h-[200px]"
+            >
+            <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
+            <p class="font-light text-xs py-2 font-avenir lg:hidden block">
+              Organic Skinny High <br>
+              Waist Raw Hem Jeans
+            </p>
+            <div class="lg:flex lg:flex-row flex lg:justify-between flex-col lg:items-center items-start">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-2">
+                <!-- Color Options -->
+                <div
+                  id="jeans-yellow"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
+                ></div>
+                <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
+                ></div>
+                <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
+                ></div>
+                <div
+                  id="hoodie-green"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-2','desktop-image-2','mobile-image-2')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Product Item 3 -->
+          <div class="text-start flex-shrink-0">
+            <img
+              id="desktop-image-3"
+              src="{{ 'joggers-blue.png' | asset_url }}"
+              alt="joggers-blue"
+              width="230"
+              height="310"
+              class="lg:block hidden w-[230px] h-[310px]"
+            >
+            <img
+              id="mobile-image-3"
+              src="{{ 'joggers-blue.png' | asset_url }}"
+              alt="joggers-blue"
+              width="148"
+              height="200"
+              class="lg:hidden block w-[148px] h-[200px]"
+            >
+            <p class="font-light text-xs py-2 font-avenir lg:block hidden">365 Signature Hoodie</p>
+            <p class="font-light text-xs py-2 font-avenir lg:hidden block">
+              Organic Skinny High <br>
+              Waist Raw Hem Jeans
+            </p>
+            <div class="lg:flex lg:flex-row flex lg:justify-between flex-col lg:items-center items-start">
+              <div class="text-sm font-medium">€33.95</div>
+
+              <div class="flex items-center space-x-2 py-2" id="color-options-3">
+                <!-- Color Options -->
+                <div
+                  id="joggers-blue"
+                  data-image="{{ 'joggers-blue.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #99C3CC;"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
+                ></div>
+                <div
+                  id="byte-main"
+                  data-image="{{ 'byte-main.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CC9999;"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
+                ></div>
+                <div
+                  id="jeans-yellow"
+                  data-image="{{ 'jeans-yellow.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #CB99CC;"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
+                ></div>
+                <div
+                  id="hoodie-green"
+                  data-image="{{ 'hoodie-green.png' | asset_url }}"
+                  class="color-circle w-4 h-4 rounded-full  cursor-pointer"
+                  style="background-color: #BCD9B2;"
+                  onclick="selectColor(event, 'color-options-3','desktop-image-3','mobile-image-3')"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- Empty space to create right padding -->
+          <div class="flex-shrink-0 w-[20px]"></div>
+          <!-- Adjust width as needed -->
+        </div>
+        <!-- Scroll Button -->
+        <button
+          class="absolute right-16 top-1/2 transform -translate-y-1/2 border border-ghostlyShade px-4 py-3.5 invisible md:invisible lg:visible"
+          onclick="scrollRight()"
+        >
+          <svg
+            width="8"
+            height="14"
+            viewBox="0 0 8 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+               d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L7.35355 6.64645C7.54882 6.84171 7.54882 7.15829 7.35355 7.35355L1.35355 13.3536C1.15829 13.5488 0.841709 13.5488 0.646447 13.3536C0.451184 13.1583 0.451184 12.8417 0.646447 12.6464L6.29289 7L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"
+                fill="black"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript to handle the scroll -->
+<script>
+  function selectColor(event, containerId, desktopId, mobileId) {
+    // Remove the 'border-black' class from all circles in the specified container
+    const circles = document.querySelectorAll(`#${containerId} .color-circle`);
+    circles.forEach((circle) => {
+      circle.classList.remove('border-black');
+    });
+
+    // Add the 'border-black' class to the selected circle
+    event.target.classList.add('border-black');
+
+    // Get the clicked color option
+    const selectedColor = event.currentTarget;
+
+    // Get the image source from the data-image attribute
+    const newImageSrc = selectedColor.getAttribute('data-image');
+
+    // Change the source of the desktop and mobile images
+    const desktopImage = document.getElementById(desktopId);
+    const mobileImage = document.getElementById(mobileId);
+
+    // Update the image sources
+    desktopImage.src = newImageSrc; // Update desktop image source
+    mobileImage.src = newImageSrc;
+  }
+
+  function scrollRight() {
+    const container = document.getElementById('product-container').querySelector('.overflow-x-auto');
+    container.scrollBy({
+      left: 230, // Adjust this value to the width of your product items
+      behavior: 'smooth',
+    });
+  }
+
+  // Set the first color as selected by default for each product item
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorContainers = ['color-options-1', 'color-options-2', 'color-options-3'];
+    colorContainers.forEach((containerId) => {
+      const firstCircle = document.querySelector(`#${containerId} .color-circle`);
+      firstCircle.classList.add('border-black'); // Highlight the first circle
+    });
+  });
+</script>
+
+<style>
+  .border-black {
+    border-color: black;
+    border: 1.5px solid;
+    padding: 1px;
+  }
+</style>

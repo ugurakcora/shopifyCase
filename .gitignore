@@ -7,4 +7,12 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+<<<<<<< HEAD
 node_modules
+=======
+.shopify
+
+# Node.js #
+###########
+node_modules/
+>>>>>>> f785cd8db9b7011cd4ef08b9a312949bf4ad7241
